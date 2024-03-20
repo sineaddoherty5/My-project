@@ -307,6 +307,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.056536, y: 3.7118058, z: 3.3416772}
   m_Center: {x: 0.18071634, y: -0.09152269, z: -0.025733948}
+--- !u!1 &38119235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+  m_PrefabInstance: {fileID: 1947161122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &38119237
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38119235}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 595d73c6ef8cf412b8e62d97467bf3a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &53193679 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 133320, guid: 197516cbd53895c4a884a452291fd503, type: 3}
@@ -2981,7 +3007,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 8.398291
   MaxDistance: 11.452383
   Pan2D: 0
   rolloffMode: 0
@@ -3569,6 +3595,78 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.19201, y: 5.379638, z: 4.0115147}
   m_Center: {x: -0.27422762, y: -0.13108754, z: -0.17001975}
+--- !u!1001 &1947161122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.49539283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.49539283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.49539283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.223
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.343
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8590154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5119498
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -61.588
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      propertyPath: m_Name
+      value: Hip Hop Dancing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 38119237}
+  m_SourcePrefab: {fileID: 100100000, guid: 2faeb5b72302243358701abfbdf04024, type: 3}
 --- !u!1001 &1947852204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3912,3 +4010,4 @@ SceneRoots:
   - {fileID: 214519104}
   - {fileID: 57627839}
   - {fileID: 1652040305}
+  - {fileID: 1947161122}
