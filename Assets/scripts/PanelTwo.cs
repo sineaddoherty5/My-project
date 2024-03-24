@@ -29,6 +29,12 @@ public class PanelTwo : MonoBehaviour
     }
 
 
+    public void RemoveObject()
+    {
+        Destroy(this.gameObject);
+    }
+
+
     public void HideUI()
     {
         ui.SetActive(false);
@@ -48,6 +54,7 @@ public class PanelTwo : MonoBehaviour
      public void PressYes()
     {
         HideUI();
+        RemoveObject();
     }
 
      public void PressNo()
