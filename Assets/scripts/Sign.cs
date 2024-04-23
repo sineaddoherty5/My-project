@@ -5,11 +5,13 @@ using UnityEngine;
 public class Sign : MonoBehaviour
 {
      public GameObject ui;
+     public GameObject sign;
 
     // Start is called before the first frame update
     void Start()
     {
         HideUI();
+        sign.SetActive(false);
     }
 
     // Update is called once per frame
@@ -50,6 +52,7 @@ public class Sign : MonoBehaviour
      public void PressYes()
     {
         HideUI();
+        sign.SetActive(true);
         
     }
 
