@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PanelTwo : MonoBehaviour
+public class Sign : MonoBehaviour
 {
-
-    public GameObject ui;
+     public GameObject ui;
 
     // Start is called before the first frame update
     void Start()
@@ -31,11 +30,6 @@ public class PanelTwo : MonoBehaviour
     }
 
 
-    public void RemoveObject()
-    {
-        Destroy(this.gameObject);
-    }
-
 
     public void HideUI()
     {
@@ -56,7 +50,7 @@ public class PanelTwo : MonoBehaviour
      public void PressYes()
     {
         HideUI();
-        RemoveObject();
+        
     }
 
      public void PressNo()
