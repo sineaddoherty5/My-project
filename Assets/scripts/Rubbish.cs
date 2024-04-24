@@ -5,6 +5,8 @@ using UnityEngine;
 public class Rubbish : MonoBehaviour
 {
     public GameObject rubbish;
+    public AudioClip rubbishnoise;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class Rubbish : MonoBehaviour
         if(other.tag == "Player")
         {
             ShowRubbish();
+            gameObject.GetComponent<AudioSource>().PlayOneShot(rubbishnoise);
         }
     }
 
